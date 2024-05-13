@@ -12,7 +12,7 @@ import (
 
 	"github.com/elastic/go-elasticsearch/v8"
 	"gopkg.in/yaml.v2"
-    "pathfinder-tui/refscraper/googleapis"
+	"pathfinder-tui/refscraper/googleapis"
 )
 
 var version = "0.0.0"

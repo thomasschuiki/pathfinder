@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-    abilityScores := pf.NewAbilityScores(10, 10, 10, 10, 10, 10)
+	abilityScores := pf.NewAbilityScores(10, 10, 10, 10, 10, 10)
 	char := pf.NewChar("Ragnulf", pf.Dwarf, abilityScores, nil)
 	fmt.Printf("%#v", char)
 }
